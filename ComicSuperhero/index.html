@@ -1,0 +1,58 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/fbadad80a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="validation validate-success"></div>
+    <div class="validation validate-error">
+      Unable to Add Superhero <br />
+      Please Fill out All From Inputs
+    </div>
+    <h1>The Superhero Comic List</h1>
+    <div class="wrapper">
+      <div class="superhero-entry">
+        <form class="superhero-form">
+          <div class="superhero-name">
+            <label for="name">Superhero Name</label>
+            <input type="text" id="name" autofocus />
+          </div>
+
+          <div class="superhero-universe">
+            <label for="universe">Superhero Universe</label>
+            <input type="text" id="universe" />
+          </div>
+
+          <div class="superhero-power">
+            <label for="power">Superhero Power</label>
+            <input type="text" id="power" />
+          </div>
+
+          <button class="add-superhero">Add Superhero</button>
+        </form>
+      </div>
+
+      <div class="superhero-list">
+        <div class="superhero-list-header">
+          <h2>Name</h2>
+          <h2>Universe</h2>
+          <h2>Power</h2>
+          <h2>Power</h2>
+        </div>
+
+        <div class="superhero-list-data"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

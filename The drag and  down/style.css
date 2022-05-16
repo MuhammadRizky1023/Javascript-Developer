@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #251bdf;
+    color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+  }
+  
+  .lists-container {
+    width: 1300px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    /* overflow-x: scroll; */
+  }
+  
+  .list {
+    background-color: rgba(211, 12, 218, 0.5);
+  
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    min-width: 200px;
+    max-width: 300px;
+    height: 100%;
+    min-height: 150px;
+    margin: 0 20px;
+    transition: all 0.25s ease-in;
+  }
+  
+  .list-item {
+    background-color: hsl(69, 90%, 50%);
+    padding: 15px 20px;
+    text-align: center;
+    margin: 8px 12px;
+    cursor: pointer;
+  }
+  
